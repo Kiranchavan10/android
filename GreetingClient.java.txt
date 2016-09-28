@@ -4,7 +4,7 @@ import java.io.*;
 public class GreetingClient {
 
    public static void main(String [] args) {
-      String serverName = args[0];
+      String serverName = "192.168.80.9"
       int port = Integer.parseInt(args[1]);
       try {
          System.out.println("Connecting to " + serverName + " on port " + port);
